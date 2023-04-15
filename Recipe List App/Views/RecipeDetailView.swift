@@ -1,10 +1,3 @@
-//
-//  RecipeDetailView.swift
-//  Recipe List App
-//
-//  Created by Marcel Maciaszek on 10/04/2023.
-//
-
 import SwiftUI
 
 struct RecipeDetailView: View {

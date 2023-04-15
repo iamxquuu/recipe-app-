@@ -1,9 +1,3 @@
-//
-//  RecipeModel.swift
-//  Recipe List App
-//
-//  Created by Christopher Ching on 2021-01-14.
-//
 
 import Foundation
 
