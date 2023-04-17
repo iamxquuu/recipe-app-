@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct recipeTabView: View {
+struct RecipeTabView: View {
     var body: some View {
         
-        TabView{
+        TabView {
+            
             Text("Featured View")
                 .tabItem {
                     VStack {
@@ -18,6 +19,7 @@ struct recipeTabView: View {
                         Text("Featured")
                     }
                 }
+            
             RecipeListView()
                 .tabItem {
                     VStack {
@@ -25,12 +27,13 @@ struct recipeTabView: View {
                         Text("List")
                     }
                 }
-            }
         }
+        
+    }
 }
 
-struct recipeTabView_Previews: PreviewProvider {
+struct RecipeTabView_Previews: PreviewProvider {
     static var previews: some View {
-        recipeTabView()
+        RecipeTabView()
     }
 }
