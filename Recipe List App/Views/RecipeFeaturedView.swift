@@ -15,12 +15,16 @@ struct RecipeFeaturedView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             
-            Text("Featured Recipes")
-                .bold()
-                .padding(.leading)
-                .padding(.top, 40)
-                .font(.largeTitle)
-                
+            HStack {
+                Text("Featured Recipes ")
+                    .bold()
+                    .padding(.leading)
+                    .padding(.top, 40)
+                    .font(.largeTitle)
+                Image(systemName: "star.fill")
+                    .padding(.top, 40)
+            }
+        
             GeometryReader { geo in
                 TabView {
                     
