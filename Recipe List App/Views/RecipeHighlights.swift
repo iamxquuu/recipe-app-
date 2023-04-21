@@ -25,6 +25,7 @@ struct RecipeHighlights: View {
     
     var body: some View {
         Text(allHighlights)
+            
     }
 }
 
